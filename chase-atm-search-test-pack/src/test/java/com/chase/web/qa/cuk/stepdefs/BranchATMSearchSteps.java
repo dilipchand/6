@@ -28,6 +28,7 @@ public class BranchATMSearchSteps {
 	@Before
 	public void setUp() {
 		this.uiActionHelper =  new UIActionHelper();
+		System.out.println("Test");
 	}
 	
 	@Given("^I have launched the (.*)$") 
